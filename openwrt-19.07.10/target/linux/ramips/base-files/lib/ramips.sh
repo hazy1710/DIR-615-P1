@@ -640,6 +640,9 @@ ramips_board_detect() {
 	*"WT3020 (8M)")
 		name="wt3020-8M"
 		;;
+	*"DIR-615 P1")
+		name="dir-615-p1"
+		;;
 	*"WZR-AGL300NH")
 		name="wzr-agl300nh"
 		;;
