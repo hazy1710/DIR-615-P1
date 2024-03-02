@@ -59,9 +59,15 @@ sudo apt update
 sudo apt install binutils bzip2 diff find flex gawk gcc-6+ getopt grep install libc-dev libz-dev
 make4.1+ perl python3.7+ rsync subversion unzip which
 ```
-### Скачайте этот репозиторий распакуйте zip, перейдите в папку openwrt-19.07.10
+### Получение файлов
+Скачайте этот репозиторий распакуйте zip, перейдите в папку openwrt-19.07.10
 ```
 cd openwrt-19.07.10
+```
+Либо git-clone
+```
+git clone https://github.com/hazy1710/DIR-615-P1.git
+cd DIR-615-P1/openwrt-19.07.10
 ```
 ### Обновите feeds
 ```
