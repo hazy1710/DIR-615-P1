@@ -7,6 +7,7 @@ cd openwrt-19.07.10
 
 # Update the feeds
 ./scripts/feeds update -a
+
 ./scripts/feeds install -a
  
 # Configure the firmware image
