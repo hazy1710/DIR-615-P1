@@ -10,7 +10,7 @@
 
 ПК IP 192.168.0.2
 
-Положить в папку сервера TFTP файл dir-615-p1-squashfs-sysupgrade.bin
+Положить в папку сервера TFTP файл openwrt-ramips-mt7620-dlink_dir-615-p1-squashfs-sysupgrade.bin и переименовать по короче (dir.bin например)
 
 Запускаем на ПК TFTP сервер 192.168.0.2 
 
@@ -44,7 +44,7 @@ Please Input new ones /or Ctrl-C to discard
 ```
 .Input Linux Kernel filename () ==:
 ```
-Пишем имя файла прошивки в папке TFTP например dir-615-p1-squashfs-sysupgrade.bin
+Пишем имя файла прошивки, который мы положили в папку TFTP (например dir.bin)
 
 Ждем окончания прошивки.
 
@@ -82,6 +82,8 @@ make menuconfig
 ```
 make -j$(nproc) defconfig download clean world
 ```
+Прошивка будет лежать в openwrt-19.07.10/bin/targets/ramips/mt7620/
+
 Больше информации на [openwrt.org](https://openwrt.org/)
 
 # Совместимость
