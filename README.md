@@ -1,4 +1,4 @@
-# Openwrt D-Link Dir-615 v.P1
+# Openwrt 19.07.10 D-Link Dir-615 v.P1
 ![gpio](https://github.com/hazy1710/DIR-615-P1/assets/19472123/1f80bcc3-ce92-4748-aa77-0e62b166be2b)
 ![tag](https://github.com/hazy1710/DIR-615-P1/assets/19472123/20b30b69-2ea6-46d9-a561-686f6bf4bafa)
 ![gpio2](https://github.com/hazy1710/DIR-615-P1/assets/19472123/606dac82-57b7-405f-b0a3-a97ce599cb17)
@@ -52,10 +52,11 @@ Default IP 192.168.1.1
 
 Больше информации [FAQ: по прошивке](https://habr.com/ru/articles/192414/).
 
-### Установка Build system на Ubuntu
+# Установка Build system на Ubuntu
 ### Установите
 ```
-binutils bzip2 diff find flex gawk gcc-6+ getopt grep install libc-dev libz-dev
+sudo apt update
+sudo apt install binutils bzip2 diff find flex gawk gcc-6+ getopt grep install libc-dev libz-dev
 make4.1+ perl python3.7+ rsync subversion unzip which
 ```
 ### Скачайте этот репозиторий распакуйте zip, перейдите в папку openwrt-19.07.10
@@ -76,3 +77,12 @@ make menuconfig
 make -j$(nproc) defconfig download clean world
 ```
 Больше информации на [openwrt.org](https://openwrt.org/)
+
+# Совместимость
+Все что вы делаете, вы делаете на свой страх и риск.
+
+Данная прошивка проверена на устройстве отображенного на фото.
+
+Судя по фото из интернета [DIR-620](https://openwrt.org/toh/d-link/dir-620) F1 имеет схожую компановку (только USB распаян и RAM 64Mb).
+
+На DIR-620 F1 должно работать, но пока не кем не проверено.
