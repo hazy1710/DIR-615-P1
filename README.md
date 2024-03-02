@@ -15,3 +15,6 @@ make menuconfig
  
 # Build the firmware image
 make -j$(nproc) defconfig download clean world
+
+# Load in router
+By downloading quashfs-sysupgrade.bin via TFTP.
