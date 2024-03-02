@@ -1,7 +1,7 @@
 # Openwrt 19.07.10 D-Link Dir-615 v.P1
-![gpio](https://github.com/hazy1710/DIR-615-P1/assets/19472123/1f80bcc3-ce92-4748-aa77-0e62b166be2b)
-![tag](https://github.com/hazy1710/DIR-615-P1/assets/19472123/20b30b69-2ea6-46d9-a561-686f6bf4bafa)
-![gpio2](https://github.com/hazy1710/DIR-615-P1/assets/19472123/606dac82-57b7-405f-b0a3-a97ce599cb17)
+![gpio2](img/gpio2.jpg)
+![gpio](img/gpio.jpg)
+![tag](img/tag.jpg)
 
 # Прошивка по TFTP uboot 1.1.3
 Подключаемся через UART (скорость:57200)
